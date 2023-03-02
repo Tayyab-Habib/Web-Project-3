@@ -1,0 +1,29 @@
+.inp{
+    width:100%;
+    margin: 3% 0%;
+    background:transparent;
+    border:none;
+    border-bottom: 1px solid black
+}
+.inp:focus{
+    outline:none;
+}
+.btn {
+    font-size: 15px;
+    display: block;
+    margin: 8% auto;
+    width: 42%;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: #ff5621;
+    color:white;
+    cursor: pointer;
+    border:none;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    transform: scale(1.1);
+}
